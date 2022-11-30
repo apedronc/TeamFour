@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Y2Mate.is - Highscore 👾 (16-Bit Arcade No Copyright Music)-M4bGQfu6slw-160k-1654160150999.mp3-a433502b0a1c1866eaead7dc3b8a8e06.mp3str"
+
+[deps]
+
+source_file="res://Assets/Y2Mate.is - Highscore 👾 (16-Bit Arcade No Copyright Music)-M4bGQfu6slw-160k-1654160150999.mp3"
+dest_files=[ "res://.import/Y2Mate.is - Highscore 👾 (16-Bit Arcade No Copyright Music)-M4bGQfu6slw-160k-1654160150999.mp3-a433502b0a1c1866eaead7dc3b8a8e06.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

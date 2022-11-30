@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/noo.mp3-f77ab18cd60755df8a9062b4faa571fb.mp3str"
+
+[deps]
+
+source_file="res://Assets/noo.mp3"
+dest_files=[ "res://.import/noo.mp3-f77ab18cd60755df8a9062b4faa571fb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

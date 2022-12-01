@@ -4,7 +4,10 @@ var VP = Vector2.ZERO
 
 var score = 0
 var time = 0
-var lives = 0
+var lives = 5
+var maxlives = 5
+var health = 1
+var maxhealth = 1
 
 func _ready():
 	pause_mode = Node.PAUSE_MODE_PROCESS
@@ -43,16 +46,9 @@ func update_score(s):
 	if HUD != null:
 		HUD.update_score()
 
-func update_lives(l):
-	score += l
-	if lives < 0:
-		var _scene = get_tree().change_scene("res://UI/End_Game.tscn")
-	else:
-		var hud = get_node_or_null("/root/Game/UI/HUD")
-		if hud != null:
-			hud.update_lives()
-		if lives < 0:
-			var _scene = get_tree().change_scene("res://UI/End_Game.tscn")
+
+			
+
 
 func _physics_process(_delta):
 	var Asteroid_Container = get_node_or_null("/root/Game/Asteroid_Container")

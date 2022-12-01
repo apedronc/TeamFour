@@ -23,7 +23,8 @@ issues.  Otherwise, the only issues we had were time constraints and communicati
 
 ## Implementation and References
 Music from [Youtube]([url](https://www.youtube.com/watch?v=AZ2pdAiF3Wc&ab_channel=MusicForVideo))
-Sprites from []
+Chef Sprite created by Aiden Pedroncelli
+Food Sprites from [Henry Software](https://henrysoftware.itch.io/pixel-food)
 Other sprites created by Jake Greene
 
 

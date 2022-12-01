@@ -5,7 +5,7 @@
 [ext_resource path="res://Player/Player.gd" type="Script" id=3]
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 512, 300 )
+position = Vector2( 515, 295 )
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true

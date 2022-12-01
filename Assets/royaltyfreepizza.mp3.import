@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/royaltyfreepizza.mp3-d134248beb33fe94b22c75e0a11d426b.mp3str"
+
+[deps]
+
+source_file="res://Assets/royaltyfreepizza.mp3"
+dest_files=[ "res://.import/royaltyfreepizza.mp3-d134248beb33fe94b22c75e0a11d426b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

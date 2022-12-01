@@ -5,7 +5,7 @@ var small_speed = 3.0
 var initial_speed = 3.0
 var health = 1
 
-onready var Asteroid_small = load("res://Food/Asteroid_small.tscn")
+onready var Asteroid_small = load("res://Asteroid/Asteroid_small.tscn")
 var small_asteroids = [Vector2(0,-30),Vector2(30,30),Vector2(-30,30)]
 
 func _ready():

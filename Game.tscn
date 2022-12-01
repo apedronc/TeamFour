@@ -3,11 +3,11 @@
 [ext_resource path="res://HUD.gd" type="Script" id=1]
 [ext_resource path="res://Assets/HyperspaceBold.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Menu.gd" type="Script" id=3]
-[ext_resource path="res://Asteroid/Asteroid.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Food/Asteroid.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Enemy/Enemy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Player/Player_Container.gd" type="Script" id=6]
-[ext_resource path="res://Assets/living-room-interior-top-view-3d-render-29440539.jpg" type="Texture" id=7]
-[ext_resource path="res://Assets/Y2Mate.is - Highscore 👾 (16-Bit Arcade No Copyright Music)-M4bGQfu6slw-160k-1654160150999.mp3" type="AudioStream" id=8]
+[ext_resource path="res://Assets/vector-illustration-office-top-view-260nw-1333461926.png" type="Texture" id=7]
+[ext_resource path="res://Assets/royaltyfreepizza.mp3" type="AudioStream" id=8]
 
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 2 )
@@ -126,8 +126,8 @@ custom_fonts/font = SubResource( 4 )
 text = "PAUSE"
 
 [node name="SpaceBackground(1)" type="Sprite" parent="."]
-position = Vector2( 900, 595.188 )
-scale = Vector2( 2.2525, 2.20339 )
+position = Vector2( 1059.97, 540.28 )
+scale = Vector2( 4.23637, 4.144 )
 z_index = -12
 texture = ExtResource( 7 )
 

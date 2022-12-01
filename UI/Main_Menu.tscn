@@ -1,9 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Main_Menu.gd" type="Script" id=1]
 [ext_resource path="res://Assets/HyperspaceBold.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/wood.jpg" type="Texture" id=3]
 [ext_resource path="res://Assets/yea.mp3" type="AudioStream" id=4]
+[ext_resource path="res://Assets/New/player.png" type="Texture" id=5]
+[ext_resource path="res://Assets/crouton copy 2.png" type="Texture" id=6]
 
 [sub_resource type="DynamicFont" id=4]
 size = 22
@@ -32,6 +34,28 @@ __meta__ = {
 position = Vector2( 510.377, 299.79 )
 scale = Vector2( 1.67197, 1.48632 )
 texture = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="ColorRect"]
+position = Vector2( 851, 308 )
+scale = Vector2( 0.493478, 0.493478 )
+texture = ExtResource( 5 )
+offset = Vector2( -52.6873, -22.2908 )
+
+[node name="Sprite3" type="Sprite" parent="ColorRect"]
+position = Vector2( 823, 430 )
+scale = Vector2( 0.247501, 0.247501 )
+texture = ExtResource( 6 )
+
+[node name="Sprite4" type="Sprite" parent="ColorRect"]
+position = Vector2( 930, 384 )
+scale = Vector2( 0.320902, 0.320902 )
+texture = ExtResource( 6 )
+
+[node name="Sprite2" type="Sprite" parent="ColorRect"]
+position = Vector2( -296, 95 )
+scale = Vector2( 0.244, 0.244 )
+texture = ExtResource( 6 )
+offset = Vector2( 5004.1, 635.246 )
 
 [node name="ColorRect2" type="ColorRect" parent="."]
 margin_left = 375.0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://HUD.gd" type="Script" id=1]
 [ext_resource path="res://Assets/HyperspaceBold.ttf" type="DynamicFontData" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Assets/vector-illustration-office-top-view-260nw-1333461926.png" type="Texture" id=7]
 [ext_resource path="res://Assets/royaltyfreepizza.mp3" type="AudioStream" id=8]
 [ext_resource path="res://Enemy/HungryMan.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Enemy_Container.gd" type="Script" id=10]
 
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 2 )
@@ -29,6 +30,7 @@ outlines = [ PoolVector2Array( 3, 2, 2117, 2, 2117, 1079, 3, 1079 ) ]
 
 [node name="Game" type="Node2D"]
 __meta__ = {
+"_edit_horizontal_guides_": [  ],
 "_editor_description_": "The root of the scene"
 }
 
@@ -58,6 +60,7 @@ position = Vector2( 400, 600 )
 [node name="Effects" type="Node2D" parent="."]
 
 [node name="Enemy_Container" type="Node2D" parent="."]
+script = ExtResource( 10 )
 
 [node name="Enemy" parent="Enemy_Container" instance=ExtResource( 5 )]
 position = Vector2( 500, 900 )
